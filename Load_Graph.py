@@ -80,8 +80,10 @@ plt.title('Comparison of new Residential Construction Permits against Household 
 plt.subplot(212)  # confirm that the construction and household income are correlated
 p = pearsonr(dfr_agg['Income'], dfr_agg['Residential'])[0]
 plt.scatter(dfr_agg['Income'], dfr_agg['Residential'], alpha=0.5)
+plt.yticks(np.arange(0, dfr_agg['Residential'].max()+dfr_agg['Residential'].max()/4, 5000).round(-3))
 plt.xlabel('Median Household Income (adj. for Inflation)', size=9)
 plt.ylabel('Residential Permits', size=9)
 xmin, xmax = plt.xlim()
 ymin, ymax = plt.ylim()
 _ = plt.text(xmin+((xmax-xmin)/50), ymax-(ymax/10), 'Pearson: {:.2f}'.format(p), size=8)
+
