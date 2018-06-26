@@ -10,4 +10,4 @@ Refer to "Scrape_Files.py" for the code.
   https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_05_EST_S1901&prodType=table
 
 ## Data Visualization
-Python's matplotlib library was used to generate the relevant visualizations to answer the Qn: What is the corelation between Brooklyn's construction boom and its household income.
+Python's matplotlib library was used to generate the relevant visualizations to answer the Qn: What is the correlation between Brooklyn's construction boom and its household income.
