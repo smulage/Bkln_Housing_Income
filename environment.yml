@@ -1,0 +1,20 @@
+name: bklyn_housing
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
+  - time
+  - sys
+  - io
+  - zipfile
+  - urllib
+  - seaborn
+  - scipy
