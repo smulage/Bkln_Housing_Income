@@ -1,0 +1,10 @@
+pandas
+numpy
+time
+sys
+io
+zipfile
+urllib
+matplotlib
+seaborn
+scipy
